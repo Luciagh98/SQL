@@ -31,7 +31,6 @@ VALUES (1,10,5),
         (2,1,12),
         (3,5,3);
 
-
 /*3. Realiza una consulta que muestre los nombres de los usuarios y los nombres de los productos que han comprado, incluidos aquellos que no han realizado ningún pedido (utiliza LEFT JOIN y COALESCE).*/
 
 SELECT U.nombre AS nombre_usuario,
